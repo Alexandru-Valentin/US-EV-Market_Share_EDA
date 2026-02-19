@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "EV_DB",
+            "database": "EV_DB",
+            "username": "root",
+            "password": "microvolt",
+            "connectionTimeout": 60
+        }
+    ]
+}
